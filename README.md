@@ -1,3 +1,5 @@
+the original repo does not work and the owner is too retarded to push a pr, theres like 5 of them fixing it, just use this one
+
 # GitHub Profile 3D Contrib.
 
 ![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-gitblock.svg)
@@ -45,7 +47,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-      - uses: gumbobr0t/github-profile-3d-contrib@0.7.2
+      - uses: gumbobrot/github-profile-3d-contrib@0.7.2
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
